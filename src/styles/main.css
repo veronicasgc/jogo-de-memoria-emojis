@@ -78,8 +78,9 @@ h2 {
 
 .item.boxOpen{
     transform: rotateY(0deg);
+    overflow: hidden
 }
 
-.boxOpen::after, boxMatch::after{
+.boxOpen::after, .boxMatch::after{
     transform: rotateY(180deg);
 }
